@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-171",
+	"location": "ukwest",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e64100c1-3a0b-49d2-a4f2-5a0a1dced5b2",
+		"tenantId": "4f15e320-f6c2-45d1-8c26-9c32b03b3dd9"
+	}
+}
