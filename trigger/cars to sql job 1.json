@@ -1,0 +1,25 @@
+{
+	"name": "cars to sql job 1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "blob to sql",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2021-12-18T21:00:00",
+				"endTime": "2021-12-20T20:55:00",
+				"timeZone": "GMT Standard Time"
+			}
+		}
+	}
+}
